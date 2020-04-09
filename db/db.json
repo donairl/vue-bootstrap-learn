@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "simon",
+      "password": "kuda1234"
+    },
+    {
+      "id": 2,
+      "username": "diana",
+      "password": "asdf"
+    },
+    {
+      "username": "donny",
+      "password": "simon",
+      "id": 3
+    },
+    {
+      "username": "donny1",
+      "password": "simon",
+      "id": 4
+    },
+    {
+      "username": "raja",
+      "password": "sosoto333",
+      "id": 5
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "How to cook a pizza",
+      "Author": "Jana"
+    },
+    {
+      "id": 2,
+      "title": "Brainwash",
+      "Author": "Dreana"
+    },
+    {
+      "id": 3,
+      "title": "Learn how to fly",
+      "Author": "Sawamo"
+    },
+    {
+      "id": 4,
+      "title": "Bahasa Indonesia",
+      "Author": "Tri Simarno"
+    }
+  ]
+}
