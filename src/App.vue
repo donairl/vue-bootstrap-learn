@@ -19,7 +19,8 @@
   <b-row>
      <b-col>
        <b-nav vertical class="w-75">
-        <b-nav-item active>Active</b-nav-item>
+        <b-nav-item active to="/book">Book</b-nav-item>
+        <b-nav-item active to="/user">User</b-nav-item>
         <b-nav-item>Login</b-nav-item>
         <b-nav-item>List</b-nav-item>
         <b-nav-item disabled>Disabled</b-nav-item>

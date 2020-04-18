@@ -24,13 +24,20 @@
       "username": "raja",
       "password": "sosoto333",
       "id": 5
+    },
+    {
+      "username": "megaloman",
+      "password": "sayasakti88",
+      "id": 6
     }
   ],
   "books": [
     {
       "id": 1,
       "title": "How to cook a pizza",
-      "Author": "Jana"
+      "Author": "Jana",
+      "Price": 6700,
+      "BestSeller":true
     },
     {
       "id": 2,
@@ -40,12 +47,23 @@
     {
       "id": 3,
       "title": "Learn how to fly",
-      "Author": "Sawamo"
+      "Author": "Sawamo",
+      "BestSeller":false
     },
     {
       "id": 4,
       "title": "Bahasa Indonesia",
-      "Author": "Tri Simarno"
+      "Author": "Tri Simarno",
+      "BestSeller":false
+    },
+    {
+      "id": 5,
+      "title": "Kinder Kids",
+      "Author": "Ramayana Jan",
+      "Price": 1200,
+      "BestSeller":true
     }
-  ]
+   
+  ],
+  "products":[]
 }
