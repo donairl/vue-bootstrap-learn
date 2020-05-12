@@ -1,7 +1,7 @@
 <template>
 
 <b-container fluid>
- <b-navbar toggleable="lg" type="dark" variant="info">
+ <b-navbar toggleable="lg" type="dark" variant="info" class="wide">
   <b-navbar-brand href="#">Demo Vue</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -21,7 +21,7 @@
        <b-nav vertical class="w-75">
         <b-nav-item active to="/book">Book</b-nav-item>
         <b-nav-item active to="/user">User</b-nav-item>
-        <b-nav-item>Login</b-nav-item>
+        <b-nav-item to="/login">Login</b-nav-item>
         <b-nav-item>List</b-nav-item>
         <b-nav-item disabled>Disabled</b-nav-item>
       </b-nav>
@@ -48,6 +48,11 @@
 
 #nav {
   padding: 30px;
+}
+
+.wide{
+  margin-left:-15px;
+  margin-right:-15px;
 }
 
 #nav a {
